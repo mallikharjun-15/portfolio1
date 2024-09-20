@@ -1,0 +1,68 @@
+body {
+  font-family: "Brush Script MT", cursive;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+  color: #1a237e;
+}
+#bg {
+  background-image: url("obito.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+nav {
+  text-align: center;
+  padding: 10px 20px;
+  list-style-type: none;
+  display: flex;
+}
+nav li a {
+  text-decoration: none;
+  color: #1a237e;
+  padding: 10px;
+  font-size: 20px;
+  color: lawngreen;
+}
+nav li a:hover {
+  color: red;
+  background-color: lawngreen;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro {
+  font-size: 56px;
+  color: white;
+  font-family: "Brush Script MT", cursive;
+  padding: 20px;
+}
+
+#sub {
+  font-size: 22px;
+  color: ivory;
+  font-family: "Brush Script MT", cursive;
+  padding: 50px;
+  max-width: 400px;
+}
+.cont {
+  display: flex;
+  padding: 20px 100px;
+  gap: 650px;
+}
+#about h1 {
+  text-align: center;
+}
+#contact,
+footer {
+  text-align: center;
+}
